@@ -1,5 +1,6 @@
 ---
 - name: Install and configure web service
+  gather_facts: yes
   hosts:
     - serverc.lab.example.com
     - serverd.lab.example.com
